@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-02-18T18:18:35.654Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-02-18T18:09:12.990Z",
+    "activeFeatures": [
+      "website",
+      "IpingWebsite"
+    ],
+    "primaryFeature": "website",
+    "features": {
+      "website": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-17T14:44:18.452Z",
+          "lastUpdated": "2026-02-17T15:53:57.909Z"
+        },
+        "lastFile": "c:\\CodeProject\\website\\script.js"
+      },
+      "IpingWebsite": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-18T18:08:56.581Z",
+          "lastUpdated": "2026-02-18T18:09:12.990Z"
+        },
+        "lastFile": "c:\\IpingWebsite\\script.js"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-02-17T14:30:21.880Z",
+      "onboardingCompleted": false,
+      "lastActivity": "2026-02-18T18:09:12.990Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-02-17T14:44:18.452Z",
+        "feature": "website",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T14:47:10.218Z",
+        "feature": "website",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T14:55:55.478Z",
+        "feature": "website",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T15:31:14.844Z",
+        "feature": "website",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T15:53:57.909Z",
+        "feature": "website",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-18T18:08:56.581Z",
+        "feature": "IpingWebsite",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-18T18:09:03.088Z",
+        "feature": "IpingWebsite",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-18T18:09:06.375Z",
+        "feature": "IpingWebsite",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-18T18:09:12.990Z",
+        "feature": "IpingWebsite",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}
