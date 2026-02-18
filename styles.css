@@ -461,6 +461,7 @@ body {
     color: var(--text-light);
     line-height: 1.7;
     font-size: 14px;
+    word-break: keep-all;
 }
 
 .service-card[data-expandable] {
