@@ -824,9 +824,9 @@ body {
 }
 
 .partner-title {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 13px;
-    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 24px;
