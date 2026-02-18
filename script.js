@@ -3,13 +3,13 @@ const langToggle = document.getElementById('langToggle');
 const htmlEl = document.documentElement;
 
 // Load saved language or default to English
-const savedLang = localStorage.getItem('lang') || 'en';
+const savedLang = localStorage.getItem('lang') || 'eng';
 htmlEl.className = savedLang;
-htmlEl.lang = savedLang === 'ko' ? 'ko' : 'en';
+htmlEl.lang = savedLang === 'kor' ? 'ko' : 'en';
 
 // Update translatable option texts based on current language
 function updateOptionLangs(lang) {
-    document.querySelectorAll('option[data-ko][data-en]').forEach(opt => {
+    document.querySelectorAll('option[data-kor][data-eng]').forEach(opt => {
         opt.textContent = opt.getAttribute('data-' + lang);
     });
 }
@@ -19,10 +19,10 @@ updateOptionLangs(savedLang);
 
 if (langToggle) {
     langToggle.addEventListener('click', () => {
-        const currentLang = htmlEl.classList.contains('ko') ? 'ko' : 'en';
-        const newLang = currentLang === 'ko' ? 'en' : 'ko';
+        const currentLang = htmlEl.classList.contains('kor') ? 'kor' : 'eng';
+        const newLang = currentLang === 'kor' ? 'eng' : 'kor';
         htmlEl.className = newLang;
-        htmlEl.lang = newLang === 'ko' ? 'ko' : 'en';
+        htmlEl.lang = newLang === 'kor' ? 'ko' : 'en';
         localStorage.setItem('lang', newLang);
         updateOptionLangs(newLang);
     });
@@ -131,7 +131,7 @@ const counterSpeed = 200;
 
 const animateCounter = (counter) => {
     // Skip elements with language spans to preserve toggle
-    if (counter.querySelector('.ko, .en')) return;
+    if (counter.querySelector('.kor, .eng')) return;
 
     const target = counter.textContent;
     const isNumber = !isNaN(parseInt(target));
