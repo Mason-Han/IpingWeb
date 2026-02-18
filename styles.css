@@ -311,6 +311,16 @@ body {
     box-shadow: 0 8px 25px rgba(99, 102, 241, 0.4);
 }
 
+.btn-red {
+    background: #e74c3c;
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+}
+
+.btn-red:hover {
+    background: #c0392b;
+    box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
+}
+
 .btn-secondary {
     background: rgba(255, 255, 255, 0.1);
     color: var(--white);
